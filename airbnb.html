@@ -1,1 +1,62 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/airbnb.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <title>숙소, 체험, 장소를 모두 한 곳에서 - 에어비앤비</title>
+    </head>
+    <body>
+        <nav class="search">
+            <form>
+                <label for="location">위치</label><br>
+                <input type="text" id="location" placeholder="도시, 랜드마크 또는 주소를 입력하세요."/>
+            </form>
+            <form>
+                <label for="date">체크인/체크아웃</label><br>
+                <input type="text" id="date" placeholder="날짜 추가"/>
+            </form>
+            <form>
+                <label for="guest">인원</label><br>
+                <input type="text" id="guest" placeholder="게스트 추가"/>
+            </form>
+            <div id="button">
+                <button>검색</button>
+            </div>
+        </nav>
+        <div id="message-inner">
+            <div id="message">모두가 힘을 합친다면,<br> 이겨낼 수 있습니다.</div>
+        </div>            
+        <article class="starter">
+            <div class="starter-option">
+                <a href="https://www.airbnb.co.kr/s/experiences/online"><img src="images\starter-2.jpg"></a>
+                <div>
+                    <a href="https://www.airbnb.co.kr/s/experiences/online" class="subtitle">온라인 체험</a> 
+                </div>
+                <div>
+                    <a href="https://www.airbnb.co.kr/s/experiences/online" class="content">세계 각지의 호스트가 진행하고 모두가
+                         함께하는 독특한 체험을 즐겨보세요.</a>
+                </div>
+            </div>
+            <div class="starter-option">
+                <a href="https://www.airbnb.co.kr/s/homes"><img src="images\starter-3.jpg"></a>
+                <div >
+                    <a href="https://www.airbnb.co.kr/s/homes" class="subtitle">장기 숙박</a>
+                </div>
+                <div>
+                    <a href="https://www.airbnb.co.kr/s/homes" class="content">한 달 이상 장기숙박할 숙소를 에어비엔비에서 찾아보세요.</a>
+                </div>
+            </div>
+            <div class="starter-option">
+                <a href="https://www.airbnb.co.kr/openhomes/covid19relief"><img src="images\starter-1.jpg"></a>
+                <div >
+                    <a href="https://www.airbnb.co.kr/openhomes/covid19relief" class="subtitle">구호 인력을 위한 숙소</a>
+                </div>
+                <div>
+                    <a href="https://www.airbnb.co.kr/openhomes/covid19relief" class="content">코로나 19 구호 인력을 위한 숙소를 찾거나 제공하세요.</a>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>
+
