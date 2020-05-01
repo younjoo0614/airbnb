@@ -1,0 +1,114 @@
+* {
+    font-family: "Nanum Gothic" sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-bar-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 1px 0px 1px rgb(225, 227, 230);
+}
+
+.pd-top-80 {
+    padding-top: 80px;
+}
+
+.nav-none {
+    display: none !important;
+}
+
+/* banner-sub */
+.banner-sub {
+    text-align: center;
+    background-color: #fafafa;
+    height: 58px;
+    line-height: 58px;
+    font-size: 13px;
+}
+
+.banner-sub a {
+    text-decoration: underline;
+}
+
+.learn-more {
+    font-weight: bold;
+}
+
+/* banner-main */
+.banner-main {
+    height: 80px;
+    font-size: 12px;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-inner {
+    max-width: 1150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo-link {
+    height: 100%;
+}
+
+.banner-logo {
+    height: 100%;
+    width: 104px;
+}
+
+.banner-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-nav .banner-button {
+    padding: 11px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-nav .banner-button .button-nation {
+    height: 16px;
+}
+
+.banner-nav .banner-button .button-nation:hover {
+    color: rgba(225, 227, 230, 0.3);
+}
+
+.banner-nav .banner-button:hover {
+    background-color: rgba(225, 227, 230, 0.3);
+}
+
+.banner-nav .sign-up {
+    border: 1px solid none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 0px 2px rgb(225, 227, 230);
+    padding: 13px;
+}
+
+.banner-nav .sign-up:hover {
+    box-shadow: 0px 1px 5px 2px rgb(225, 227, 230);
+}
+
+footer {
+    height: 2000px;
+}
