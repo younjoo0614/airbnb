@@ -22,7 +22,7 @@ footer {
     justify-content: space-between;
 }
 
-.footer-inner li:not(.dot):hover {
+.footer-inner li:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.7);
     cursor: pointer;
