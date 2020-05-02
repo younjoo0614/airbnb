@@ -272,21 +272,45 @@
     padding-bottom: 4%;
 }
 
-p2{
+p{
     color:white;
     font-size: 60px;
+    margin:4px;
+    text-decoration: none;
 }
-p1{
+h1{
     color:white;
     font-size: 130px;
     font-weight: bold;
+    margin:4px;
 }
-p3{
+h2{
+    margin:4px;
     color:black;
+    font-size:120px;
     font-weight: bold;
-    font-size:80px;
 }
-p4{
+h3{
+    margin:20px;
+    color:rgb(110, 110, 110);
+    font-size:73px;
+    font-weight: w
+}
+h4{
     color:black;
     font-size:65px;
+    margin:4px;
 }
+h5{
+    color:rgb(121, 120, 120);
+    font-size: 55px;
+    margin:4px;
+}
+
+h6{
+    color:black;
+    font-size: 90px;
+    margin:4px;
+}
+
+a {text-decoration: none;}
