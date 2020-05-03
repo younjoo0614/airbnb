@@ -1,0 +1,404 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-bar-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 1px 0px 1px rgb(225, 227, 230);
+}
+
+.pd-top-80 {
+    padding-top: 80px;
+}
+
+.nav-none {
+    display: none !important;
+}
+
+/* banner-sub */
+.banner-sub {
+    text-align: center;
+    background-color: #fafafa;
+    height: 58px;
+    line-height: 58px;
+    font-size: 13px;
+}
+
+.banner-sub a {
+    text-decoration: underline;
+}
+
+.learn-more {
+    font-weight: bold;
+}
+
+/* banner-main */
+.banner-main {
+    height: 80px;
+    font-size: 12px;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%
+    margin-right: 20px;
+    margin-left: 14px;
+}
+
+.logo-link {
+    height: 100%;
+}
+
+.banner-logo {
+    height: 100%;
+    width: 104px;
+}
+
+.banner-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-button {
+    padding: 11px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-button .button-nation {
+    height: 16px;
+}
+
+.banner-button .button-nation:hover {
+    color: rgba(225, 227, 230, 0.3);
+}
+
+.banner-button:hover {
+    background-color: rgba(225, 227, 230, 0.3);
+}
+
+.sign-up {
+    border: 1px solid none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 0px 2px rgba(225, 227, 230, 0.7);
+    padding: 13px;
+}
+
+.sign-up:hover {
+    box-shadow: 0px 1px 5px 2px rgba(225, 227, 230, 0.7);
+}
+
+/* banner-nav-sub */
+.banner-nav-sub {
+    display: none;
+}
+
+.nav-change {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.banner-search {
+    display: flex;
+    justify-content: center;
+    width: 790px;
+    padding: 0px 24px;
+    text-align: center;
+}
+
+.ban-search-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 335px;
+    height: 46px;
+    border: 1px solid rgb(225, 227, 230);
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px 0.7px rgba(225, 227, 230, 0.7);
+}
+
+.ban-search-inner:hover {
+    box-shadow: 0px 1px 5px 2px rgba(225, 227, 230, 0.7);
+}
+
+.ban-search-inner p {
+    padding: 0px 14px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 12px;
+    border-right: 1px solid rgb(225, 227, 230);
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.ban-search-inner p:hover {
+    color: black;
+}
+
+.ban-search-inner img {
+    height: 16px;
+    padding: 0px 17px;
+}
+
+/* footer */
+
+footer {
+    height: 2000px;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+}
+
+.homelist {
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    margin-right: 20px;
+}
+
+.list_title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.search_summary {
+    font-size: 14px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.search_title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.filter {
+    padding-top: 25px;
+}
+
+.filter_button {
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: 1px solid rgb(176,176,176);
+    background-color: white;
+}
+
+.alert_clock {
+    width: 50px;
+    height: 50px;
+}
+
+.alert_message {
+    font-size: 14px;
+    margin: 0 0 0 16px;
+}
+
+.alert {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.list_example {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-top: 4px;
+    padding-bottom: 24px;
+}
+
+.homelist_photo {
+    width: 300px;
+    height: 200px;
+}
+
+.homelist_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.list_example_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.list_example_header_txt {
+    display: block;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+.like_button {
+    height: 26px;
+    width: 26px;
+}
+
+.top_txt {
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: rgb(113,113,113);
+}
+
+.main_txt {
+    font-size: 18px;
+}
+
+.underbar {
+    margin-top: 22px;
+    border-top-color: rgb(221,221,221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    width: 32px;
+}
+
+.exp_1 {
+    margin-top: 9px;
+    font-size: 14px;
+    color: rgb(113,113,113);
+}
+
+.exp_2 {
+    margin-top: 4px;
+    font-size: 14px;
+    color: rgb(113,113,113);
+}
+
+.exp_fee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fee {
+    text-align: end;
+    font-size: 18px;
+}
+
+.original-fee{
+    text-decoration: line-through;
+}
+
+.total_fee {
+    text-align: end;
+    color: rgb(113,113,113);
+    font-size: 12px;
+}
+
+.long_underbar {
+    border-top-color: rgb(235,235,235);
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.discount_promotion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 4px;
+    border-color: rgba(0,0,0,0.2);
+    border-width: 0.5px;
+    padding: 3px 8px 3px 6px;
+    background-color: rgb(255,255,255);
+    margin-top: 12px;
+    width: 120px;
+}
+
+.promotion_tag {
+    width: 16px;
+    height: 16px;
+}
+
+.promotion_txt {
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+}
+
+.exp_footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.reputation {
+    margin-right: 12px;
+}
+
+.star_score {
+    display: flex;
+    align-items: center;
+}
+
+.star_img {
+    height: 14px;
+    width: 14px;
+}
+
+.score {
+    font-size: 14px;
+    color: rgb(113,113,113);
+}
+
+.super_host {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -90px;
+}
+
+.super_img {
+    height: 18px;
+    width: 18px;
+}
+
+.super_txt {
+    font-size: 14px;
+    color: rgb(113,113,113);
+}
+
+.map {
+    
+}
