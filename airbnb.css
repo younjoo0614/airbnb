@@ -1,0 +1,292 @@
+.contents{
+    width: 100%;
+    height:6700px;
+    margin: none;
+    padding: none;
+}
+.intro {
+    display: grid;
+    width:88%;
+    margin:0;
+    grid-template-columns: 48% 24% 24%;
+    grid-template-rows: 15fr 31.8fr 10fr 34fr 10fr;
+    background-color: black;
+    grid-gap:1.5%;
+    padding-left:6%;
+    padding-right: 6%;
+    padding-top: 5%;
+    padding-bottom:5%;
+    box-sizing: inherit;
+    height:45%;
+    align-content: center;
+  }
+.top{border:solid 0.1% black ;
+        background-color: black;
+        grid-area: 1/1/2/4;
+        text-align: left;
+    
+    }
+.left{border: solid 0.1% #dbdbdb;
+        background-color: black;
+        grid-area: 2/1/6/2;
+        border-radius: 5%;
+        overflow: hidden;
+        z-index: 0;
+    } 
+.right1{border: solid 0.1% #dbdbdb;
+        background-color: black;
+        grid-area: 2/2/4/3;
+        border-radius: 5%;
+        overflow: hidden;
+        z-index: 0;
+    }
+.right2{border: solid 0.1% #dbdbdb;
+        background-color: black;
+        grid-area: 2/3/4/4;
+        border-radius: 5%;
+        overflow: hidden;
+        z-index: 0;
+    }
+.bottom{border: solid 0.1% #dbdbdb;
+        background-color: antiquewhite;
+        grid-area: 4/2/6/4;
+        border-radius: 5%;
+        overflow: hidden;
+        align-items: center;
+        z-index: 0;
+    }
+.header{
+    width:90%;
+    height:500px;
+    background-color: white;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:2%;
+    padding-bottom:2%
+}
+.corona{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:90%;
+    height:10%;
+    background-color: white;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:6%;
+    padding-bottom:6%
+}
+.cleft{
+    color:black;
+    font-size:120px;
+    font-weight: bold;
+}
+.cright{
+    color:black;
+    font-size:80px;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+}
+
+.right1 img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+}
+
+.right2 img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
+}
+.bottom img{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    align-items: center;
+}
+.rtxt2{
+    grid-area:3/3/4/4;
+    background-color: rgb(54, 52, 52);
+    z-index: 1;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow:hidden;
+    padding:2%;
+
+}
+.rtxt1{
+    grid-area:3/2/4/3;
+    background-color: rgb(54, 52, 52);
+    z-index: 1;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow:hidden;
+    padding:2%;
+}
+.ltxt{
+    grid-area:5/1/6/2;
+    background-color: rgb(54, 52, 52);
+    z-index: 1;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow:hidden;
+    padding:2%;
+}
+.btxt{
+    grid-area:5/2/6/4;
+    background-color: rgb(54, 52, 52);
+    z-index: 1;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    overflow:hidden;
+    padding:2%;
+}
+.newInfo{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5%;
+    width:90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:6%;
+    padding-bottom:6%;
+    height: 20%;
+    box-sizing: inherit;
+    background-color: rgb(243, 240, 240);
+}
+.infoTitle{
+    grid-area:1/1/2/5;
+    background-color: rgb(243, 240, 240);}
+.gTitle{
+    grid-area:2/1/3/2;
+    background-color: rgb(243, 240, 240);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.gInfo1{
+    grid-area:3/1/4/2;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.gInfo2{
+    grid-area:4/1/5/2;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.gInfo3{
+    grid-area:5/1/6/2;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.hTitle{
+    grid-area:2/2/3/3;
+    background-color: rgb(243, 240, 240);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.hInfo1{
+    grid-area:3/2/4/3;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.hInfo2{
+    grid-area:4/2/5/3;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.hInfo3{
+    grid-area:5/2/6/3;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.cTitle{
+    grid-area:2/3/3/4;
+    background-color: rgb(243, 240, 240);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.cInfo1{
+    grid-area:3/3/4/4;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.cInfo2{
+    grid-area:4/3/5/4;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.cInfo3{
+    grid-area:5/3/6/4;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.eTitle{
+    grid-area:2/4/3/5;
+    background-color: rgb(243, 240, 240);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.eInfo1{
+    grid-area:3/4/4/5;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.eInfo2{
+    grid-area:4/4/5/5;
+    background-color: rgb(243, 240, 240);
+    border-top: solid rgb(207, 207, 207) 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.eInfo3{
+    grid-area:5/4/6/5;
+    background-color: rgb(243, 240, 240);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+p2{
+    color:white;
+    font-size: 60px;
+}
+p1{
+    color:white;
+    font-size: 130px;
+    font-weight: bold;
+}
+p3{
+    color:black;
+    font-weight: bold;
+    font-size:80px;
+}
+p4{
+    color:black;
+    font-size:65px;
+}
