@@ -166,12 +166,12 @@ a {
 }
 
 /* 여기부터 윤주 */
-.option_banner{
+.option-banner{
     max-width:1150px;
     margin: auto;
 }
 
-.new_icon{
+.new-icon{
     width: 33px;
     height: 20.6px;
     margin: 0px 0px 0px 8px;
@@ -196,7 +196,7 @@ a {
     font-size: 16px;
     margin: 20px 0px 0px 0px;
 }
-.travel_option{
+.travel-option{
     display: flex;
     border:0px;
     background-color: white;
@@ -245,7 +245,7 @@ a {
     /*z-index:2;*/
 }
 
-.sear_icon{
+.sear-icon{
     margin: 0px 0px 0px 8px;
 }
 #message-inner{
