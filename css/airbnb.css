@@ -166,8 +166,45 @@ a {
 }
 
 /* 여기부터 윤주 */
+.option_banner{
+    max-width:1150px;
+    margin: auto;
+}
+
+.new_icon{
+    width: 33px;
+    height: 20.6px;
+    margin: 0px 0px 0px 8px;
+    border-radius: 5px;
+    background-color:rgb(255, 56, 92);
+    display: flex;
+    justify-content: center;
+}
+
+.new-message{
+    font-size: 10px;
+    line-height: 20.6px;
+    color: white;
+}
+
+.travel-type{
+    max-width:1150px;
+    display:flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+}
+.travel_option{
+    display: flex;
+    border:0px;
+    background-color: white;
+    font-size: 16px;
+}
+
 .search{
-    max-width: 1150px;
+    max-width:1150px;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -181,25 +218,21 @@ a {
 }
 
 .search form {
-    width: 346px;
+    width:400px;
+    margin:auto;
+    
 }
 
 .search form input{
-    width: 370px;
+    width: 350px;
     border:0px;
     font-size:14px;
 }
 #button{
-    width:120px;
-}
-#button img{
-    width: 20px;
-}
-
-button{
-    width:70px;
-    height: 40px;
-    background-color: #cc2954;
+    width:80px;
+    display:flex;
+    height: 30px;
+    background-color: #F93359;
     color:white;
     border: 0px;
     border-radius: 12px;
@@ -207,42 +240,43 @@ button{
     margin: 5px;
     background-image: url("images/search_icon.jpg");
 }
+#button img{
+    width: 20px;
+    /*z-index:2;*/
+}
+
+.sear_icon{
+    margin: 0px 0px 0px 8px;
+}
 #message-inner{
     max-width: 1150px;
-    display: flex;
-
-    margin: 0 auto;
+    margin: auto;
 }
 #message{
-    width:900px;
+    max-width:1150px;
     font-size: 3em;
-    margin: 48px 0px;
-    display: flex;
-    justify-content: flex-start;  
-    color: #a1233e ; 
+    margin: 48px 0px ;
+    background-image: linear-gradient(to right, rgb(143, 26, 77),rgb(228, 29, 91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .starter{
     max-width: 1150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin:auto;
 }
 
 .starter .starter-option{
-    width:370px;
+    width:375px;
     box-shadow: 2px 4px 10px #d9dede;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.starter-option .comment {
-    padding: 12px 16px 16px 16px;
-}
-
 .starter img{
-    width: 370px;
-    height: 247px;
+    width: 390px;
 }
 
 .subtitle{
